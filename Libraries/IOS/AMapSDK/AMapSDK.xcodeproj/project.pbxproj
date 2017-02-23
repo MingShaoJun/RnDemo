@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170452CE1E5BCFCA002F4246 /* AMapSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 170452CC1E5BCFCA002F4246 /* AMapSDK.h */; };
+		170452CF1E5BCFCA002F4246 /* AMapSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 170452CD1E5BCFCA002F4246 /* AMapSDK.m */; };
+		170453311E5BDBB0002F4246 /* DriveRoutePlanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 170453271E5BDBB0002F4246 /* DriveRoutePlanViewController.h */; };
+		170453321E5BDBB0002F4246 /* DriveRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170453281E5BDBB0002F4246 /* DriveRoutePlanViewController.m */; };
+		170453331E5BDBB0002F4246 /* NaviPointAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 170453291E5BDBB0002F4246 /* NaviPointAnnotation.h */; };
+		170453341E5BDBB0002F4246 /* NaviPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704532A1E5BDBB0002F4246 /* NaviPointAnnotation.m */; };
+		170453351E5BDBB0002F4246 /* PreferenceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704532B1E5BDBB0002F4246 /* PreferenceView.h */; };
+		170453361E5BDBB0002F4246 /* PreferenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704532C1E5BDBB0002F4246 /* PreferenceView.m */; };
+		170453371E5BDBB0002F4246 /* RouteCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704532D1E5BDBB0002F4246 /* RouteCollectionViewCell.h */; };
+		170453381E5BDBB0002F4246 /* RouteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704532E1E5BDBB0002F4246 /* RouteCollectionViewCell.m */; };
+		170453391E5BDBB0002F4246 /* SelectableOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704532F1E5BDBB0002F4246 /* SelectableOverlay.h */; };
+		1704533A1E5BDBB0002F4246 /* SelectableOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 170453301E5BDBB0002F4246 /* SelectableOverlay.m */; };
+		1704533D1E5BDBB8002F4246 /* AMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704533B1E5BDBB8002F4246 /* AMapView.h */; };
+		1704533E1E5BDBB8002F4246 /* AMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704533C1E5BDBB8002F4246 /* AMapView.m */; };
+		1704539D1E5BE1DE002F4246 /* EventEmitterTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704539B1E5BE1DE002F4246 /* EventEmitterTool.h */; };
+		1704539E1E5BE1DE002F4246 /* EventEmitterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704539C1E5BE1DE002F4246 /* EventEmitterTool.m */; };
+		170453C71E5C34A4002F4246 /* RoutePlanSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 170453C51E5C34A4002F4246 /* RoutePlanSDK.h */; };
+		170453C81E5C34A4002F4246 /* RoutePlanSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 170453C61E5C34A4002F4246 /* RoutePlanSDK.m */; };
+		1704541F1E5C42F8002F4246 /* kkk.h in Headers */ = {isa = PBXBuildFile; fileRef = 1704541D1E5C42F8002F4246 /* kkk.h */; };
+		170454201E5C42F8002F4246 /* kkk.m in Sources */ = {isa = PBXBuildFile; fileRef = 1704541E1E5C42F8002F4246 /* kkk.m */; };
+		1733DE361E5D893F0066DE48 /* AMapRouteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733DE341E5D893F0066DE48 /* AMapRouteView.h */; };
+		1733DE371E5D893F0066DE48 /* AMapRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733DE351E5D893F0066DE48 /* AMapRouteView.m */; };
+		8FE0B0B875F77A9F561459EF /* Pods_AMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9596F7F435D99C345CA39753 /* Pods_AMapSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		173172051E56D18C0028D44D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		146D826DFCE55B0B61132573 /* Pods-AMapSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapSDK/Pods-AMapSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		170452CC1E5BCFCA002F4246 /* AMapSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapSDK.h; sourceTree = "<group>"; };
+		170452CD1E5BCFCA002F4246 /* AMapSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapSDK.m; sourceTree = "<group>"; };
+		170453271E5BDBB0002F4246 /* DriveRoutePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveRoutePlanViewController.h; sourceTree = "<group>"; };
+		170453281E5BDBB0002F4246 /* DriveRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveRoutePlanViewController.m; sourceTree = "<group>"; };
+		170453291E5BDBB0002F4246 /* NaviPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviPointAnnotation.h; sourceTree = "<group>"; };
+		1704532A1E5BDBB0002F4246 /* NaviPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviPointAnnotation.m; sourceTree = "<group>"; };
+		1704532B1E5BDBB0002F4246 /* PreferenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceView.h; sourceTree = "<group>"; };
+		1704532C1E5BDBB0002F4246 /* PreferenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceView.m; sourceTree = "<group>"; };
+		1704532D1E5BDBB0002F4246 /* RouteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteCollectionViewCell.h; sourceTree = "<group>"; };
+		1704532E1E5BDBB0002F4246 /* RouteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteCollectionViewCell.m; sourceTree = "<group>"; };
+		1704532F1E5BDBB0002F4246 /* SelectableOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableOverlay.h; sourceTree = "<group>"; };
+		170453301E5BDBB0002F4246 /* SelectableOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableOverlay.m; sourceTree = "<group>"; };
+		1704533B1E5BDBB8002F4246 /* AMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapView.h; sourceTree = "<group>"; };
+		1704533C1E5BDBB8002F4246 /* AMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapView.m; sourceTree = "<group>"; };
+		1704539B1E5BE1DE002F4246 /* EventEmitterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventEmitterTool.h; sourceTree = "<group>"; };
+		1704539C1E5BE1DE002F4246 /* EventEmitterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEmitterTool.m; sourceTree = "<group>"; };
+		170453C51E5C34A4002F4246 /* RoutePlanSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutePlanSDK.h; path = Route/RoutePlanSDK.h; sourceTree = "<group>"; };
+		170453C61E5C34A4002F4246 /* RoutePlanSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutePlanSDK.m; path = Route/RoutePlanSDK.m; sourceTree = "<group>"; };
+		1704541D1E5C42F8002F4246 /* kkk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkk.h; sourceTree = "<group>"; };
+		1704541E1E5C42F8002F4246 /* kkk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkk.m; sourceTree = "<group>"; };
+		173172071E56D18C0028D44D /* libAMapSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMapSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1733DE341E5D893F0066DE48 /* AMapRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapRouteView.h; sourceTree = "<group>"; };
+		1733DE351E5D893F0066DE48 /* AMapRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapRouteView.m; sourceTree = "<group>"; };
+		7F13799EA9FD59874EB287D4 /* Pods-AMapSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapSDK/Pods-AMapSDK.release.xcconfig"; sourceTree = "<group>"; };
+		9596F7F435D99C345CA39753 /* Pods_AMapSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMapSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173172041E56D18C0028D44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE0B0B875F77A9F561459EF /* Pods_AMapSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170453261E5BDBB0002F4246 /* DriveRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				1733DE341E5D893F0066DE48 /* AMapRouteView.h */,
+				1733DE351E5D893F0066DE48 /* AMapRouteView.m */,
+				170453271E5BDBB0002F4246 /* DriveRoutePlanViewController.h */,
+				170453281E5BDBB0002F4246 /* DriveRoutePlanViewController.m */,
+				1704541D1E5C42F8002F4246 /* kkk.h */,
+				1704541E1E5C42F8002F4246 /* kkk.m */,
+				170453291E5BDBB0002F4246 /* NaviPointAnnotation.h */,
+				1704532A1E5BDBB0002F4246 /* NaviPointAnnotation.m */,
+				1704532B1E5BDBB0002F4246 /* PreferenceView.h */,
+				1704532C1E5BDBB0002F4246 /* PreferenceView.m */,
+				1704532D1E5BDBB0002F4246 /* RouteCollectionViewCell.h */,
+				1704532E1E5BDBB0002F4246 /* RouteCollectionViewCell.m */,
+				1704532F1E5BDBB0002F4246 /* SelectableOverlay.h */,
+				170453301E5BDBB0002F4246 /* SelectableOverlay.m */,
+			);
+			path = DriveRoutePlan;
+			sourceTree = "<group>";
+		};
+		170453C31E5C32D1002F4246 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				170452CC1E5BCFCA002F4246 /* AMapSDK.h */,
+				170452CD1E5BCFCA002F4246 /* AMapSDK.m */,
+				1704539B1E5BE1DE002F4246 /* EventEmitterTool.h */,
+				1704539C1E5BE1DE002F4246 /* EventEmitterTool.m */,
+				178E48571E5EB78500B88C4D /* View */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		170453C41E5C32E2002F4246 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				170453C51E5C34A4002F4246 /* RoutePlanSDK.h */,
+				170453C61E5C34A4002F4246 /* RoutePlanSDK.m */,
+				170453261E5BDBB0002F4246 /* DriveRoutePlan */,
+			);
+			name = Route;
+			sourceTree = "<group>";
+		};
+		173171FE1E56D18C0028D44D = {
+			isa = PBXGroup;
+			children = (
+				173172091E56D18C0028D44D /* AMapSDK */,
+				173172081E56D18C0028D44D /* Products */,
+				83A5DB25543B9E63F74E1777 /* Pods */,
+				D9E40AB1013231AB14C26CE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		173172081E56D18C0028D44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173172071E56D18C0028D44D /* libAMapSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173172091E56D18C0028D44D /* AMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				170453C31E5C32D1002F4246 /* Map */,
+				170453C41E5C32E2002F4246 /* Route */,
+			);
+			path = AMapSDK;
+			sourceTree = "<group>";
+		};
+		178E48571E5EB78500B88C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1704533B1E5BDBB8002F4246 /* AMapView.h */,
+				1704533C1E5BDBB8002F4246 /* AMapView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		83A5DB25543B9E63F74E1777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				146D826DFCE55B0B61132573 /* Pods-AMapSDK.debug.xcconfig */,
+				7F13799EA9FD59874EB287D4 /* Pods-AMapSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9E40AB1013231AB14C26CE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9596F7F435D99C345CA39753 /* Pods_AMapSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		173172461E56D62A0028D44D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170453351E5BDBB0002F4246 /* PreferenceView.h in Headers */,
+				170453391E5BDBB0002F4246 /* SelectableOverlay.h in Headers */,
+				1733DE361E5D893F0066DE48 /* AMapRouteView.h in Headers */,
+				1704539D1E5BE1DE002F4246 /* EventEmitterTool.h in Headers */,
+				1704533D1E5BDBB8002F4246 /* AMapView.h in Headers */,
+				170452CE1E5BCFCA002F4246 /* AMapSDK.h in Headers */,
+				170453C71E5C34A4002F4246 /* RoutePlanSDK.h in Headers */,
+				1704541F1E5C42F8002F4246 /* kkk.h in Headers */,
+				170453371E5BDBB0002F4246 /* RouteCollectionViewCell.h in Headers */,
+				170453311E5BDBB0002F4246 /* DriveRoutePlanViewController.h in Headers */,
+				170453331E5BDBB0002F4246 /* NaviPointAnnotation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		173172061E56D18C0028D44D /* AMapSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173172101E56D18D0028D44D /* Build configuration list for PBXNativeTarget "AMapSDK" */;
+			buildPhases = (
+				FC97E2DA199492C66D81FEC8 /* [CP] Check Pods Manifest.lock */,
+				173172031E56D18C0028D44D /* Sources */,
+				173172041E56D18C0028D44D /* Frameworks */,
+				173172051E56D18C0028D44D /* CopyFiles */,
+				173172461E56D62A0028D44D /* Headers */,
+				173172471E56D6300028D44D /* Resources */,
+				4AB94D4C6BC62E2F65654763 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMapSDK;
+			productName = AMapSDK;
+			productReference = 173172071E56D18C0028D44D /* libAMapSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173171FF1E56D18C0028D44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HAL;
+				TargetAttributes = {
+					173172061E56D18C0028D44D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68X78L2WPF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 173172021E56D18C0028D44D /* Build configuration list for PBXProject "AMapSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 173171FE1E56D18C0028D44D;
+			productRefGroup = 173172081E56D18C0028D44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173172061E56D18C0028D44D /* AMapSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173172471E56D6300028D44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB94D4C6BC62E2F65654763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapSDK/Pods-AMapSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC97E2DA199492C66D81FEC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173172031E56D18C0028D44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170453321E5BDBB0002F4246 /* DriveRoutePlanViewController.m in Sources */,
+				170454201E5C42F8002F4246 /* kkk.m in Sources */,
+				1733DE371E5D893F0066DE48 /* AMapRouteView.m in Sources */,
+				170453361E5BDBB0002F4246 /* PreferenceView.m in Sources */,
+				170453381E5BDBB0002F4246 /* RouteCollectionViewCell.m in Sources */,
+				170453C81E5C34A4002F4246 /* RoutePlanSDK.m in Sources */,
+				1704533E1E5BDBB8002F4246 /* AMapView.m in Sources */,
+				170452CF1E5BCFCA002F4246 /* AMapSDK.m in Sources */,
+				1704533A1E5BDBB0002F4246 /* SelectableOverlay.m in Sources */,
+				170453341E5BDBB0002F4246 /* NaviPointAnnotation.m in Sources */,
+				1704539E1E5BE1DE002F4246 /* EventEmitterTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1731720E1E56D18D0028D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1731720F1E56D18D0028D44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173172111E56D18D0028D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146D826DFCE55B0B61132573 /* Pods-AMapSDK.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 68X78L2WPF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/AMapLocation\"/**",
+					"\"${PODS_ROOT}/AMapNavi\"/**",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../Libraries",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		173172121E56D18D0028D44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F13799EA9FD59874EB287D4 /* Pods-AMapSDK.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 68X78L2WPF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/AMapLocation\"/**",
+					"\"${PODS_ROOT}/AMapNavi\"/**",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../Libraries",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173172021E56D18C0028D44D /* Build configuration list for PBXProject "AMapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1731720E1E56D18D0028D44D /* Debug */,
+				1731720F1E56D18D0028D44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173172101E56D18D0028D44D /* Build configuration list for PBXNativeTarget "AMapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173172111E56D18D0028D44D /* Debug */,
+				173172121E56D18D0028D44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173171FF1E56D18C0028D44D /* Project object */;
+}
